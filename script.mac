@@ -1,0 +1,24 @@
+/det/select Box
+
+/vis/filtering/trajectories/create/chargeFilter
+/vis/filtering/trajectories/chargeFilter-0/add 0
+/vis/filtering/trajectories/chargeFilter-0/invert true
+/vis/filtering/trajectories/chargeFilter-0/verbose false
+/vis/filtering/trajectories/chargeFilter-0/active true
+
+
+/gen/select range
+
+/gen/range/id 13
+/gen/range/t0 0 ns
+/gen/range/vertex 0 0 85.47 m
+/gen/range/p_unit 0 0 -1
+
+/gen/range/phi_min -0.8 rad 
+/gen/range/phi_max  0.8 rad
+/gen/range/eta_max  0.65
+/gen/range/eta_min  1.5
+
+/gen/range/p_mag 50 GeV/c
+
+/run/beamOn 100000
